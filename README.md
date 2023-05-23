@@ -2,6 +2,9 @@
 
 This repository contains a Python implementation of a credit card fraud detection system. The system is designed to analyze credit card transactions and identify potential fraudulent activities using machine learning algorithms.
 
+![image](https://github.com/omkarm0542/Credit_card_fraud_Detection/assets/123791884/9e946dbf-2f6a-4b72-b9f2-c47e392dedbb)
+
+
 # Table of Contents
 * Introduction
 * Dependencies
@@ -17,6 +20,9 @@ This repository contains a Python implementation of a credit card fraud detectio
 
 # Introduction
 Credit card fraud is a significant concern for financial institutions and customers alike. This project aims to develop a credit card fraud detection system that can identify fraudulent transactions in real-time. The system leverages machine learning techniques to analyze transaction data and classify transactions as either fraudulent or legitimate.
+
+![image](https://github.com/omkarm0542/Credit_card_fraud_Detection/assets/123791884/d43ffe70-2fd3-4423-9bd5-08a532af4f0e)
+
 
 # Dependencies
 The following dependencies are required to run the project:
@@ -54,7 +60,7 @@ To preprocess the data, follow these steps:
 2. Run the preprocess_data.py script:
 > python preprocess_data.py
 
-Model Training
+1. Model Training
 The train_model.py script trains a machine learning model using the preprocessed data. It splits the data into training and testing sets, trains the model, and saves it for future use.
 
 To train the model, follow these steps:
@@ -64,7 +70,7 @@ Run the train_model.py script:
 > python train_model.py
 
 
-Model Evaluation
+2. Model Evaluation
 The evaluate_model.py script evaluates the performance of the trained model using the test data. It computes various metrics such as accuracy, precision, recall, and F1-score.
 
 To evaluate the model, follow these steps:
